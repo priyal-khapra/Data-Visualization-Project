@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Top Health Enthusiast Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+      /* Style for dropdown controls */
+      body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+      #controls {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        flex-wrap: wrap;
+      }
+  
+      #controls select {
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        cursor: pointer;
+      }
+  
+      #controls label {
+        font-weight: 500;
+        margin-right: 5px;
+        font-family: sans-serif;
+      }
+
+      h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <h2>Your Monthly Statistics</h2>
+    
+    <div id="controls"></div>
+    <div id="vis"></div>
+    
+
+    <script src="self.js"></script>
+  </body>
+</html>

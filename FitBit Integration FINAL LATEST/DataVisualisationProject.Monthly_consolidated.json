@@ -1,0 +1,1484 @@
+[{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 14.059999927,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c98"
+  },
+  "VeryActiveDistance": 56.680000423,
+  "SedentaryMinutes": 16062,
+  "TotalMinutesAsleep": 6088.059137251112,
+  "Id": 1503960366,
+  "Calories": 35799,
+  "LightActiveDistance": 83.099999905,
+  "LightlyActiveMinutes": 4250,
+  "": 0,
+  "FairlyActiveMinutes": 349,
+  "TotalDistance": 153.929999829,
+  "VeryActiveMinutes": 762,
+  "TotalTimeInBed": 6553.989186212051,
+  "TotalSteps": 238807
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 6.399999991,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c9a"
+  },
+  "VeryActiveDistance": 6.340000032,
+  "SedentaryMinutes": 23968,
+  "TotalMinutesAsleep": 1883.992966509106,
+  "Id": 1624580081,
+  "Calories": 28401,
+  "LightActiveDistance": 59.36999965,
+  "LightlyActiveMinutes": 3205,
+  "": 2,
+  "FairlyActiveMinutes": 111,
+  "TotalDistance": 72.240000248,
+  "VeryActiveMinutes": 76,
+  "TotalTimeInBed": 2631.4296751922084,
+  "TotalSteps": 110060
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 20.379999842,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c9c"
+  },
+  "VeryActiveDistance": 12.99999994,
+  "SedentaryMinutes": 23172,
+  "TotalMinutesAsleep": 3436.3942562522884,
+  "Id": 1644430081,
+  "Calories": 54252,
+  "LightActiveDistance": 69.79000056,
+  "LightlyActiveMinutes": 3292,
+  "": 4,
+  "FairlyActiveMinutes": 456,
+  "TotalDistance": 103.270000583,
+  "VeryActiveMinutes": 171,
+  "TotalTimeInBed": 3743.613790710654,
+  "TotalSteps": 142055
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 1.25999996,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c9e"
+  },
+  "VeryActiveDistance": 0.259999998,
+  "SedentaryMinutes": 22102,
+  "TotalMinutesAsleep": 3804.192670321395,
+  "Id": 1844505072,
+  "Calories": 32258,
+  "LightActiveDistance": 44.059999354,
+  "LightlyActiveMinutes": 3111,
+  "": 6,
+  "FairlyActiveMinutes": 33,
+  "TotalDistance": 45.630000004,
+  "VeryActiveMinutes": 4,
+  "TotalTimeInBed": 4879.05353487543,
+  "TotalSteps": 68989
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.640000001,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca0"
+  },
+  "VeryActiveDistance": 0.07,
+  "SedentaryMinutes": 24507,
+  "TotalMinutesAsleep": 4362.033763097273,
+  "Id": 1927972279,
+  "Calories": 41598,
+  "LightActiveDistance": 9.819999852,
+  "LightlyActiveMinutes": 772,
+  "": 8,
+  "FairlyActiveMinutes": 15,
+  "TotalDistance": 10.52999989,
+  "VeryActiveMinutes": 1,
+  "TotalTimeInBed": 4729.235502468248,
+  "TotalSteps": 15193
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 13.360000043,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca2"
+  },
+  "VeryActiveDistance": 47.949999751,
+  "SedentaryMinutes": 21224,
+  "TotalMinutesAsleep": 2898.192676114118,
+  "Id": 2022484408,
+  "Calories": 48702,
+  "LightActiveDistance": 100.960000272,
+  "LightlyActiveMinutes": 5077,
+  "": 10,
+  "FairlyActiveMinutes": 368,
+  "TotalDistance": 162.239998818,
+  "VeryActiveMinutes": 691,
+  "TotalTimeInBed": 3302.4278055242908,
+  "TotalSteps": 226934
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.349999994,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca4"
+  },
+  "VeryActiveDistance": 0.189999998,
+  "SedentaryMinutes": 13720,
+  "TotalMinutesAsleep": 9166.40846968486,
+  "Id": 2026352035,
+  "Calories": 28581,
+  "LightActiveDistance": 55.840000035,
+  "LightlyActiveMinutes": 4325,
+  "": 12,
+  "FairlyActiveMinutes": 8,
+  "TotalDistance": 56.399999978000004,
+  "VeryActiveMinutes": 3,
+  "TotalTimeInBed": 9856.554310556321,
+  "TotalSteps": 90894
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 2.059999987,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca6"
+  },
+  "VeryActiveDistance": 1.45999996,
+  "SedentaryMinutes": 23354,
+  "TotalMinutesAsleep": 2494.502703550867,
+  "Id": {
+    "$numberLong": "2320127002"
+  },
+  "Calories": 33257,
+  "LightActiveDistance": 58.780000208000004,
+  "LightlyActiveMinutes": 3867,
+  "": 14,
+  "FairlyActiveMinutes": 53,
+  "TotalDistance": 62.369999646,
+  "VeryActiveMinutes": 17,
+  "TotalTimeInBed": 3025.0243287300204,
+  "TotalSteps": 92151
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 19.349999846,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca8"
+  },
+  "VeryActiveDistance": 19.069999794,
+  "SedentaryMinutes": 12369,
+  "TotalMinutesAsleep": 7422.149749960634,
+  "Id": {
+    "$numberLong": "2347167796"
+  },
+  "Calories": 36782,
+  "LightActiveDistance": 75.990000752,
+  "LightlyActiveMinutes": 4545,
+  "": 16,
+  "FairlyActiveMinutes": 370,
+  "TotalDistance": 114.399999647,
+  "VeryActiveMinutes": 243,
+  "TotalTimeInBed": 8207.27382558377,
+  "TotalSteps": 171354
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 5.590000027,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca9"
+  },
+  "VeryActiveDistance": 14.449999910999999,
+  "SedentaryMinutes": 21074,
+  "TotalMinutesAsleep": 3332.604392102538,
+  "Id": {
+    "$numberLong": "2873212765"
+  },
+  "Calories": 36889,
+  "LightActiveDistance": 77.960000036,
+  "LightlyActiveMinutes": 5871,
+  "": 17,
+  "FairlyActiveMinutes": 120,
+  "TotalDistance": 98.109998702,
+  "VeryActiveMinutes": 295,
+  "TotalTimeInBed": 3774.5922236610813,
+  "TotalSteps": 145123
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 3.059999969,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cab"
+  },
+  "VeryActiveDistance": 12.589999946,
+  "SedentaryMinutes": 20709,
+  "TotalMinutesAsleep": 3704.7651480663385,
+  "Id": {
+    "$numberLong": "3372868164"
+  },
+  "Calories": 37425,
+  "LightActiveDistance": 76.109999418,
+  "LightlyActiveMinutes": 6386,
+  "": 19,
+  "FairlyActiveMinutes": 82,
+  "TotalDistance": 92.040000917,
+  "VeryActiveMinutes": 183,
+  "TotalTimeInBed": 4076.444046945274,
+  "TotalSteps": 134156
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 40.759999395,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cad"
+  },
+  "VeryActiveDistance": 32.349999682,
+  "SedentaryMinutes": 13781,
+  "TotalMinutesAsleep": 5655,
+  "Id": {
+    "$numberLong": "3977333714"
+  },
+  "Calories": 29047,
+  "LightActiveDistance": 62.049999952,
+  "LightlyActiveMinutes": 3462,
+  "": 21,
+  "FairlyActiveMinutes": 936,
+  "TotalDistance": 135.319998742,
+  "VeryActiveMinutes": 376,
+  "TotalTimeInBed": 8723,
+  "TotalSteps": 197080
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.970000014,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3caf"
+  },
+  "VeryActiveDistance": 0.809999987,
+  "SedentaryMinutes": 26266,
+  "TotalMinutesAsleep": 2945.852506225149,
+  "Id": {
+    "$numberLong": "4020332650"
+  },
+  "Calories": 41393,
+  "LightActiveDistance": 7.119999781,
+  "LightlyActiveMinutes": 480,
+  "": 23,
+  "FairlyActiveMinutes": 54,
+  "TotalDistance": 9.019999863999999,
+  "VeryActiveMinutes": 105,
+  "TotalTimeInBed": 3373.675876112547,
+  "TotalSteps": 12589
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.25999999,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb1"
+  },
+  "VeryActiveDistance": 0.209999993,
+  "SedentaryMinutes": 4869,
+  "TotalMinutesAsleep": 682.5013086948907,
+  "Id": {
+    "$numberLong": "4057192912"
+  },
+  "Calories": 7895,
+  "LightActiveDistance": 10.75,
+  "LightlyActiveMinutes": 412,
+  "": 25,
+  "FairlyActiveMinutes": 6,
+  "TotalDistance": 11.450000048,
+  "VeryActiveMinutes": 3,
+  "TotalTimeInBed": 812.8889622900797,
+  "TotalSteps": 15352
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 8.790000035,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb2"
+  },
+  "VeryActiveDistance": 3.669999941,
+  "SedentaryMinutes": 15157,
+  "TotalMinutesAsleep": 7870.681733164431,
+  "Id": {
+    "$numberLong": "4319703577"
+  },
+  "Calories": 38948,
+  "LightActiveDistance": 65.009999502,
+  "LightlyActiveMinutes": 3991,
+  "": 26,
+  "FairlyActiveMinutes": 215,
+  "TotalDistance": 87.920000095,
+  "VeryActiveMinutes": 51,
+  "TotalTimeInBed": 8382.938385443404,
+  "TotalSteps": 130943
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 15.529999971,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb4"
+  },
+  "VeryActiveDistance": 20.839999925999997,
+  "SedentaryMinutes": 16376,
+  "TotalMinutesAsleep": 6274.280397848049,
+  "Id": {
+    "$numberLong": "4388161847"
+  },
+  "Calories": 58454,
+  "LightActiveDistance": 100.900000095,
+  "LightlyActiveMinutes": 4320,
+  "": 28,
+  "FairlyActiveMinutes": 344,
+  "TotalDistance": 148.950001246,
+  "VeryActiveMinutes": 321,
+  "TotalTimeInBed": 6786.442597631224,
+  "TotalSteps": 192846
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.35999999,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb6"
+  },
+  "VeryActiveDistance": 7.029999972000001,
+  "SedentaryMinutes": 17129,
+  "TotalMinutesAsleep": 6225.076735597465,
+  "Id": {
+    "$numberLong": "4445114986"
+  },
+  "Calories": 41649,
+  "LightActiveDistance": 50.930000067,
+  "LightlyActiveMinutes": 4012,
+  "": 30,
+  "FairlyActiveMinutes": 8,
+  "TotalDistance": 58.349999667,
+  "VeryActiveMinutes": 86,
+  "TotalTimeInBed": 6737.193024990198,
+  "TotalSteps": 86263
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 14.309999989,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb8"
+  },
+  "VeryActiveDistance": 10.580000023,
+  "SedentaryMinutes": 20870,
+  "TotalMinutesAsleep": 3530.436374947439,
+  "Id": {
+    "$numberLong": "4558609924"
+  },
+  "Calories": 39160,
+  "LightActiveDistance": 76.870000242,
+  "LightlyActiveMinutes": 5599,
+  "": 32,
+  "FairlyActiveMinutes": 277,
+  "TotalDistance": 101.800000191,
+  "VeryActiveMinutes": 177,
+  "TotalTimeInBed": 3924.48473119986,
+  "TotalSteps": 153974
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 23.969999881,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cba"
+  },
+  "VeryActiveDistance": 9.560000001999999,
+  "SedentaryMinutes": 14207,
+  "TotalMinutesAsleep": 7754.765084285229,
+  "Id": {
+    "$numberLong": "4702921684"
+  },
+  "Calories": 57601,
+  "LightActiveDistance": 101.590001227,
+  "LightlyActiveMinutes": 4706,
+  "": 34,
+  "FairlyActiveMinutes": 470,
+  "TotalDistance": 135.220000389,
+  "VeryActiveMinutes": 116,
+  "TotalTimeInBed": 8095.0922901058775,
+  "TotalSteps": 166683
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 13.560000122,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cbc"
+  },
+  "VeryActiveDistance": 31.080000044,
+  "SedentaryMinutes": 13012,
+  "TotalMinutesAsleep": 8909,
+  "Id": {
+    "$numberLong": "5553957443"
+  },
+  "Calories": 36220,
+  "LightActiveDistance": 64.699999629,
+  "LightlyActiveMinutes": 3922,
+  "": 36,
+  "FairlyActiveMinutes": 251,
+  "TotalDistance": 109.350000452,
+  "VeryActiveMinutes": 481,
+  "TotalTimeInBed": 9752,
+  "TotalSteps": 167030
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 15.570000081,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cbe"
+  },
+  "VeryActiveDistance": 70.649999917,
+  "SedentaryMinutes": 12859,
+  "TotalMinutesAsleep": 8208,
+  "Id": {
+    "$numberLong": "5577150313"
+  },
+  "Calories": 69399,
+  "LightActiveDistance": 50.529999611,
+  "LightlyActiveMinutes": 3123,
+  "": 38,
+  "FairlyActiveMinutes": 686,
+  "TotalDistance": 137.119999407,
+  "VeryActiveMinutes": 1998,
+  "TotalTimeInBed": 8732,
+  "TotalSteps": 183247
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 2.350000024,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc0"
+  },
+  "VeryActiveDistance": 3.5899999730000003,
+  "SedentaryMinutes": 15598,
+  "TotalMinutesAsleep": 6391.463763459331,
+  "Id": {
+    "$numberLong": "6117666160"
+  },
+  "Calories": 45068,
+  "LightActiveDistance": 98.359999895,
+  "LightlyActiveMinutes": 5738,
+  "": 40,
+  "FairlyActiveMinutes": 57,
+  "TotalDistance": 112.330001117,
+  "VeryActiveMinutes": 44,
+  "TotalTimeInBed": 6947.606869758209,
+  "TotalSteps": 148158
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.970000028,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc2"
+  },
+  "VeryActiveDistance": 1.8199999930000001,
+  "SedentaryMinutes": 23025,
+  "TotalMinutesAsleep": 3762.1795590197007,
+  "Id": {
+    "$numberLong": "6290855005"
+  },
+  "Calories": 50960,
+  "LightActiveDistance": 75.240000009,
+  "LightlyActiveMinutes": 4248,
+  "": 42,
+  "FairlyActiveMinutes": 15,
+  "TotalDistance": 78.190000295,
+  "VeryActiveMinutes": 72,
+  "TotalTimeInBed": 3843.8387785503282,
+  "TotalSteps": 103392
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 8.200000002,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc4"
+  },
+  "VeryActiveDistance": 17.359999951,
+  "SedentaryMinutes": 24810,
+  "TotalMinutesAsleep": 3139.4899145443587,
+  "Id": {
+    "$numberLong": "6775888955"
+  },
+  "Calories": 42213,
+  "LightActiveDistance": 14.830000204,
+  "LightlyActiveMinutes": 869,
+  "": 44,
+  "FairlyActiveMinutes": 311,
+  "TotalDistance": 40.579999596,
+  "VeryActiveMinutes": 263,
+  "TotalTimeInBed": 3671.1702471800563,
+  "TotalSteps": 56352
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 18.86999999,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc6"
+  },
+  "VeryActiveDistance": 36.849999995,
+  "SedentaryMinutes": 12987,
+  "TotalMinutesAsleep": 8500,
+  "Id": {
+    "$numberLong": "6962181067"
+  },
+  "Calories": 38612,
+  "LightActiveDistance": 77.350000619,
+  "LightlyActiveMinutes": 4648,
+  "": 46,
+  "FairlyActiveMinutes": 357,
+  "TotalDistance": 133.300000667,
+  "VeryActiveMinutes": 510,
+  "TotalTimeInBed": 8820,
+  "TotalSteps": 197483
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 15.379999846,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc8"
+  },
+  "VeryActiveDistance": 46.339999855,
+  "SedentaryMinutes": 20430,
+  "TotalMinutesAsleep": 3694.2242412333853,
+  "Id": {
+    "$numberLong": "7007744171"
+  },
+  "Calories": 51138,
+  "LightActiveDistance": 104.119999646,
+  "LightlyActiveMinutes": 5918,
+  "": 48,
+  "FairlyActiveMinutes": 342,
+  "TotalDistance": 165.829998726,
+  "VeryActiveMinutes": 588,
+  "TotalTimeInBed": 3915.838222399849,
+  "TotalSteps": 234789
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 10.750000015,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cca"
+  },
+  "VeryActiveDistance": 48.409999548,
+  "SedentaryMinutes": 16910,
+  "TotalMinutesAsleep": 7167.449486017681,
+  "Id": {
+    "$numberLong": "7086361926"
+  },
+  "Calories": 48387,
+  "LightActiveDistance": 50.119999656,
+  "LightlyActiveMinutes": 2653,
+  "": 50,
+  "FairlyActiveMinutes": 462,
+  "TotalDistance": 109.540000446,
+  "VeryActiveMinutes": 761,
+  "TotalTimeInBed": 7480.551874013992,
+  "TotalSteps": 160918
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 7.729999955,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ccc"
+  },
+  "VeryActiveDistance": 178.720000981,
+  "SedentaryMinutes": 21405,
+  "TotalMinutesAsleep": 3928.2086518914357,
+  "Id": {
+    "$numberLong": "8053475328"
+  },
+  "Calories": 58771,
+  "LightActiveDistance": 53.999999644,
+  "LightlyActiveMinutes": 3164,
+  "": 52,
+  "FairlyActiveMinutes": 176,
+  "TotalDistance": 240.519998555,
+  "VeryActiveMinutes": 1785,
+  "TotalTimeInBed": 4086.7614790661296,
+  "TotalSteps": 309238
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 13.220000059,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cce"
+  },
+  "VeryActiveDistance": 42.069999306999996,
+  "SedentaryMinutes": 24460,
+  "TotalMinutesAsleep": 2176.5912742975065,
+  "Id": {
+    "$numberLong": "8253242879"
+  },
+  "Calories": 33972,
+  "LightActiveDistance": 33.340000062,
+  "LightlyActiveMinutes": 2221,
+  "": 54,
+  "FairlyActiveMinutes": 272,
+  "TotalDistance": 88.6800009,
+  "VeryActiveMinutes": 390,
+  "TotalTimeInBed": 2964.435444436474,
+  "TotalSteps": 123161
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 11.23999995,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ccf"
+  },
+  "VeryActiveDistance": 61.640000373,
+  "SedentaryMinutes": 13352,
+  "TotalMinutesAsleep": 8854,
+  "Id": {
+    "$numberLong": "8378563200"
+  },
+  "Calories": 66798,
+  "LightActiveDistance": 73.399999855,
+  "LightlyActiveMinutes": 2922,
+  "": 55,
+  "FairlyActiveMinutes": 224,
+  "TotalDistance": 146.310002572,
+  "VeryActiveMinutes": 1241,
+  "TotalTimeInBed": 9620,
+  "TotalSteps": 184488
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 21.599999741,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd1"
+  },
+  "VeryActiveDistance": 16.780000097,
+  "SedentaryMinutes": 23628,
+  "TotalMinutesAsleep": 3110.8456413459216,
+  "Id": {
+    "$numberLong": "8583815059"
+  },
+  "Calories": 53179,
+  "LightActiveDistance": 57.639999628,
+  "LightlyActiveMinutes": 3053,
+  "": 57,
+  "FairlyActiveMinutes": 474,
+  "TotalDistance": 104.649999377,
+  "VeryActiveMinutes": 205,
+  "TotalTimeInBed": 3661.636501682022,
+  "TotalSteps": 134148
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 1.690000016,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd3"
+  },
+  "VeryActiveDistance": 0.72000001,
+  "SedentaryMinutes": 20169,
+  "TotalMinutesAsleep": 5560.498064084322,
+  "Id": {
+    "$numberLong": "8792009665"
+  },
+  "Calories": 40069,
+  "LightActiveDistance": 26.779999941,
+  "LightlyActiveMinutes": 2197,
+  "": 59,
+  "FairlyActiveMinutes": 117,
+  "TotalDistance": 29.189999878,
+  "VeryActiveMinutes": 28,
+  "TotalTimeInBed": 6004.185586875292,
+  "TotalSteps": 45604
+},
+{
+  "Date": {
+    "$date": "2016-04-30T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 5.510000002,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd5"
+  },
+  "VeryActiveDistance": 143.919999289,
+  "SedentaryMinutes": 20905,
+  "TotalMinutesAsleep": 2531.044880617881,
+  "Id": {
+    "$numberLong": "8877689391"
+  },
+  "Calories": 68480,
+  "LightActiveDistance": 124.539999963,
+  "LightlyActiveMinutes": 4837,
+  "": 61,
+  "FairlyActiveMinutes": 178,
+  "TotalDistance": 274.799999242,
+  "VeryActiveMinutes": 1440,
+  "TotalTimeInBed": 2740.8577200119125,
+  "TotalSteps": 333267
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 10.559999824,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c99"
+  },
+  "VeryActiveDistance": 31.930000067,
+  "SedentaryMinutes": 10231,
+  "TotalMinutesAsleep": 3482.92447572205,
+  "Id": 1503960366,
+  "Calories": 20510,
+  "LightActiveDistance": 45.64000058,
+  "LightlyActiveMinutes": 2568,
+  "": 1,
+  "FairlyActiveMinutes": 245,
+  "TotalDistance": 88.16999912200001,
+  "VeryActiveMinutes": 438,
+  "TotalTimeInBed": 3821.7583413678335,
+  "TotalSteps": 136812
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 4.780000031,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c9b"
+  },
+  "VeryActiveDistance": 22.780000094000002,
+  "SedentaryMinutes": 15022,
+  "TotalMinutesAsleep": 1390.4609749558608,
+  "Id": 1624580081,
+  "Calories": 17583,
+  "LightActiveDistance": 21.439999939,
+  "LightlyActiveMinutes": 1553,
+  "": 3,
+  "FairlyActiveMinutes": 69,
+  "TotalDistance": 49.120000367,
+  "VeryActiveMinutes": 193,
+  "TotalTimeInBed": 1948.60799989913,
+  "TotalSteps": 68001
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 8.150000214,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c9d"
+  },
+  "VeryActiveDistance": 8.900000088,
+  "SedentaryMinutes": 11684,
+  "TotalMinutesAsleep": 3174.994940544004,
+  "Id": 1644430081,
+  "Calories": 30087,
+  "LightActiveDistance": 38.480000077999996,
+  "LightlyActiveMinutes": 2062,
+  "": 5,
+  "FairlyActiveMinutes": 185,
+  "TotalDistance": 55.590000034,
+  "VeryActiveMinutes": 116,
+  "TotalTimeInBed": 3541.111802873701,
+  "TotalSteps": 76434
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.25999999,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3c9f"
+  },
+  "VeryActiveDistance": 0,
+  "SedentaryMinutes": 15303,
+  "TotalMinutesAsleep": 1843.1260646715925,
+  "Id": 1844505072,
+  "Calories": 16520,
+  "LightActiveDistance": 7.010000138,
+  "LightlyActiveMinutes": 468,
+  "": 7,
+  "FairlyActiveMinutes": 7,
+  "TotalDistance": 7.260000138,
+  "VeryActiveMinutes": 0,
+  "TotalTimeInBed": 2719.579554250917,
+  "TotalSteps": 10993
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.330000011,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca1"
+  },
+  "VeryActiveDistance": 2.899999976,
+  "SedentaryMinutes": 16333,
+  "TotalMinutesAsleep": 2140.268181791851,
+  "Id": 1927972279,
+  "Calories": 25759,
+  "LightActiveDistance": 5.899999977,
+  "LightlyActiveMinutes": 424,
+  "": 9,
+  "FairlyActiveMinutes": 9,
+  "TotalDistance": 9.139999928,
+  "VeryActiveMinutes": 40,
+  "TotalTimeInBed": 2369.0920256967274,
+  "TotalSteps": 13207
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 8.960000053,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca3"
+  },
+  "VeryActiveDistance": 27.119999647,
+  "SedentaryMinutes": 13266,
+  "TotalMinutesAsleep": 2117.401493938005,
+  "Id": 2022484408,
+  "Calories": 29107,
+  "LightActiveDistance": 52.259999514,
+  "LightlyActiveMinutes": 2904,
+  "": 11,
+  "FairlyActiveMinutes": 232,
+  "TotalDistance": 88.369999407,
+  "VeryActiveMinutes": 434,
+  "TotalTimeInBed": 2420.867317050889,
+  "TotalSteps": 125556
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca5"
+  },
+  "VeryActiveDistance": 0,
+  "SedentaryMinutes": 7652,
+  "TotalMinutesAsleep": 5749.720010553741,
+  "Id": 2026352035,
+  "Calories": 19179,
+  "LightActiveDistance": 50.680000217999996,
+  "LightlyActiveMinutes": 3631,
+  "": 13,
+  "FairlyActiveMinutes": 0,
+  "TotalDistance": 50.700000199,
+  "VeryActiveMinutes": 0,
+  "TotalTimeInBed": 6034.3398559222605,
+  "TotalSteps": 81679
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0.969999984,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ca7"
+  },
+  "VeryActiveDistance": 1.8500000239999999,
+  "SedentaryMinutes": 14469,
+  "TotalMinutesAsleep": 1827.2682363869899,
+  "Id": {
+    "$numberLong": "2320127002"
+  },
+  "Calories": 20192,
+  "LightActiveDistance": 33.609999359,
+  "LightlyActiveMinutes": 2277,
+  "": 15,
+  "FairlyActiveMinutes": 27,
+  "TotalDistance": 36.449999392,
+  "VeryActiveMinutes": 25,
+  "TotalTimeInBed": 2209.7361949205365,
+  "TotalSteps": 54072
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 2.969999976,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3caa"
+  },
+  "VeryActiveDistance": 6.510000046,
+  "SedentaryMinutes": 12939,
+  "TotalMinutesAsleep": 2254.6377476899006,
+  "Id": {
+    "$numberLong": "2873212765"
+  },
+  "Calories": 22537,
+  "LightActiveDistance": 50.490000786,
+  "LightlyActiveMinutes": 3677,
+  "": 18,
+  "FairlyActiveMinutes": 70,
+  "TotalDistance": 60.039999963,
+  "VeryActiveMinutes": 142,
+  "TotalTimeInBed": 2564.0976950914815,
+  "TotalSteps": 89106
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cac"
+  },
+  "VeryActiveDistance": 0,
+  "SedentaryMinutes": 842,
+  "TotalMinutesAsleep": 328.4992910580376,
+  "Id": {
+    "$numberLong": "3372868164"
+  },
+  "Calories": 1237,
+  "LightActiveDistance": 2.089999914,
+  "LightlyActiveMinutes": 172,
+  "": 20,
+  "FairlyActiveMinutes": 0,
+  "TotalDistance": 2.099999905,
+  "VeryActiveMinutes": 0,
+  "TotalTimeInBed": 386.7306572414914,
+  "TotalSteps": 3077
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 41.769999981,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cae"
+  },
+  "VeryActiveDistance": 16.099999792,
+  "SedentaryMinutes": 7445,
+  "TotalMinutesAsleep": 3302.4616905008324,
+  "Id": {
+    "$numberLong": "3977333714"
+  },
+  "Calories": 16363,
+  "LightActiveDistance": 31.980000376,
+  "LightlyActiveMinutes": 1781,
+  "": 22,
+  "FairlyActiveMinutes": 902,
+  "TotalDistance": 90.18999957700001,
+  "VeryActiveMinutes": 191,
+  "TotalTimeInBed": 5192.404889488843,
+  "TotalSteps": 132457
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 3.049999908,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb0"
+  },
+  "VeryActiveDistance": 3.5999999050000002,
+  "SedentaryMinutes": 12089,
+  "TotalMinutesAsleep": 3607.453189600988,
+  "Id": {
+    "$numberLong": "4020332650"
+  },
+  "Calories": 32567,
+  "LightActiveDistance": 33.43999976,
+  "LightlyActiveMinutes": 1905,
+  "": 24,
+  "FairlyActiveMinutes": 112,
+  "TotalDistance": 41.390000343000004,
+  "VeryActiveMinutes": 56,
+  "TotalTimeInBed": 3934.1201780963947,
+  "TotalSteps": 57695
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 6.7799999710000005,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb3"
+  },
+  "VeryActiveDistance": 4.950000062,
+  "SedentaryMinutes": 7653,
+  "TotalMinutesAsleep": 5268.496373355852,
+  "Id": {
+    "$numberLong": "4319703577"
+  },
+  "Calories": 24220,
+  "LightActiveDistance": 51.819999287,
+  "LightlyActiveMinutes": 3101,
+  "": 27,
+  "FairlyActiveMinutes": 167,
+  "TotalDistance": 63.739999363,
+  "VeryActiveMinutes": 60,
+  "TotalTimeInBed": 5602.631221988378,
+  "TotalSteps": 94391
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 12.429999841,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb5"
+  },
+  "VeryActiveDistance": 32.459999947,
+  "SedentaryMinutes": 9561,
+  "TotalMinutesAsleep": 4407.517483708307,
+  "Id": {
+    "$numberLong": "4388161847"
+  },
+  "Calories": 37456,
+  "LightActiveDistance": 66.380000353,
+  "LightlyActiveMinutes": 2790,
+  "": 29,
+  "FairlyActiveMinutes": 287,
+  "TotalDistance": 111.240001436,
+  "VeryActiveMinutes": 397,
+  "TotalTimeInBed": 4699.342270295273,
+  "TotalSteps": 142386
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 1.97999999,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb7"
+  },
+  "VeryActiveDistance": 9.190000168000001,
+  "SedentaryMinutes": 8598,
+  "TotalMinutesAsleep": 5137,
+  "Id": {
+    "$numberLong": "4445114986"
+  },
+  "Calories": 26123,
+  "LightActiveDistance": 31.059999942,
+  "LightlyActiveMinutes": 2470,
+  "": 31,
+  "FairlyActiveMinutes": 46,
+  "TotalDistance": 42.269999979,
+  "VeryActiveMinutes": 119,
+  "TotalTimeInBed": 5546,
+  "TotalSteps": 62430
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 6.840000063,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cb9"
+  },
+  "VeryActiveDistance": 6.449999987,
+  "SedentaryMinutes": 13032,
+  "TotalMinutesAsleep": 2331.5317679700993,
+  "Id": {
+    "$numberLong": "4558609924"
+  },
+  "Calories": 23871,
+  "LightActiveDistance": 42.410000086,
+  "LightlyActiveMinutes": 3235,
+  "": 33,
+  "FairlyActiveMinutes": 148,
+  "TotalDistance": 55.700000286,
+  "VeryActiveMinutes": 145,
+  "TotalTimeInBed": 2625.197575817496,
+  "TotalSteps": 84265
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 16.480000109000002,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cbb"
+  },
+  "VeryActiveDistance": 3.379999995,
+  "SedentaryMinutes": 9552,
+  "TotalMinutesAsleep": 4192.619885855548,
+  "Id": {
+    "$numberLong": "4702921684"
+  },
+  "Calories": 34331,
+  "LightActiveDistance": 60.400000334,
+  "LightlyActiveMinutes": 2656,
+  "": 35,
+  "FairlyActiveMinutes": 337,
+  "TotalDistance": 80.389999395,
+  "VeryActiveMinutes": 43,
+  "TotalTimeInBed": 4613.45359602403,
+  "TotalSteps": 99051
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 7.180000037,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cbd"
+  },
+  "VeryActiveDistance": 14.309999973,
+  "SedentaryMinutes": 7707,
+  "TotalMinutesAsleep": 5459,
+  "Id": {
+    "$numberLong": "5553957443"
+  },
+  "Calories": 21926,
+  "LightActiveDistance": 43.939999342,
+  "LightlyActiveMinutes": 2470,
+  "": 37,
+  "FairlyActiveMinutes": 152,
+  "TotalDistance": 65.480000499,
+  "VeryActiveMinutes": 245,
+  "TotalTimeInBed": 5930,
+  "TotalSteps": 99960
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 4.170000062,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cbf"
+  },
+  "VeryActiveDistance": 22.759999754,
+  "SedentaryMinutes": 9774,
+  "TotalMinutesAsleep": 3683.1343753848123,
+  "Id": {
+    "$numberLong": "5577150313"
+  },
+  "Calories": 31390,
+  "LightActiveDistance": 22.310000064,
+  "LightlyActiveMinutes": 1315,
+  "": 39,
+  "FairlyActiveMinutes": 209,
+  "TotalDistance": 49.279999733000004,
+  "VeryActiveMinutes": 622,
+  "TotalTimeInBed": 4008.2963484354814,
+  "TotalSteps": 65886
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc1"
+  },
+  "VeryActiveDistance": 0,
+  "SedentaryMinutes": 6698,
+  "TotalMinutesAsleep": 3475.2726527794703,
+  "Id": {
+    "$numberLong": "6117666160"
+  },
+  "Calories": 18244,
+  "LightActiveDistance": 37.250000476,
+  "LightlyActiveMinutes": 2336,
+  "": 41,
+  "FairlyActiveMinutes": 0,
+  "TotalDistance": 37.250000476,
+  "VeryActiveMinutes": 0,
+  "TotalTimeInBed": 3784.377583532196,
+  "TotalSteps": 49150
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 2.75,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc3"
+  },
+  "VeryActiveDistance": 0.660000026,
+  "SedentaryMinutes": 11573,
+  "TotalMinutesAsleep": 1835.4871857319586,
+  "Id": {
+    "$numberLong": "6290855005"
+  },
+  "Calories": 24429,
+  "LightActiveDistance": 42.170000554,
+  "LightlyActiveMinutes": 2348,
+  "": 43,
+  "FairlyActiveMinutes": 95,
+  "TotalDistance": 45.710000038,
+  "VeryActiveMinutes": 8,
+  "TotalTimeInBed": 2034.4067984245137,
+  "TotalSteps": 60445
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 1.790000007,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc5"
+  },
+  "VeryActiveDistance": 1.079999983,
+  "SedentaryMinutes": 8975,
+  "TotalMinutesAsleep": 1221.056612871648,
+  "Id": {
+    "$numberLong": "6775888955"
+  },
+  "Calories": 13213,
+  "LightActiveDistance": 3.6699999070000002,
+  "LightlyActiveMinutes": 175,
+  "": 45,
+  "FairlyActiveMinutes": 74,
+  "TotalDistance": 6.569999824,
+  "VeryActiveMinutes": 23,
+  "TotalTimeInBed": 1492.1171866899654,
+  "TotalSteps": 9160
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 10.889999808,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc7"
+  },
+  "VeryActiveDistance": 13.260000201,
+  "SedentaryMinutes": 7545,
+  "TotalMinutesAsleep": 5388,
+  "Id": {
+    "$numberLong": "6962181067"
+  },
+  "Calories": 22831,
+  "LightActiveDistance": 46.700000048,
+  "LightlyActiveMinutes": 2972,
+  "": 47,
+  "FairlyActiveMinutes": 217,
+  "TotalDistance": 70.860000136,
+  "VeryActiveMinutes": 197,
+  "TotalTimeInBed": 5630,
+  "TotalSteps": 106156
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 3.819999933,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cc9"
+  },
+  "VeryActiveDistance": 16.449999809,
+  "SedentaryMinutes": 7009,
+  "TotalMinutesAsleep": 1624.3603285809459,
+  "Id": {
+    "$numberLong": "7007744171"
+  },
+  "Calories": 15006,
+  "LightActiveDistance": 22.279999972,
+  "LightlyActiveMinutes": 1381,
+  "": 49,
+  "FairlyActiveMinutes": 81,
+  "TotalDistance": 42.570000651,
+  "VeryActiveMinutes": 219,
+  "TotalTimeInBed": 1856.1663039494538,
+  "TotalSteps": 59620
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 13.219999932,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ccb"
+  },
+  "VeryActiveDistance": 37.810000539,
+  "SedentaryMinutes": 9454,
+  "TotalMinutesAsleep": 4735.926673310172,
+  "Id": {
+    "$numberLong": "7086361926"
+  },
+  "Calories": 31170,
+  "LightActiveDistance": 37.259999873,
+  "LightlyActiveMinutes": 1806,
+  "": 51,
+  "FairlyActiveMinutes": 324,
+  "TotalDistance": 88.489999294,
+  "VeryActiveMinutes": 559,
+  "TotalTimeInBed": 4929.212028054892,
+  "TotalSteps": 129607
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 5.409999952,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3ccd"
+  },
+  "VeryActiveDistance": 85.24000001099999,
+  "SedentaryMinutes": 14183,
+  "TotalMinutesAsleep": 2138.3416235473824,
+  "Id": {
+    "$numberLong": "8053475328"
+  },
+  "Calories": 32549,
+  "LightActiveDistance": 24.549999953,
+  "LightlyActiveMinutes": 1516,
+  "": 53,
+  "FairlyActiveMinutes": 121,
+  "TotalDistance": 115.209998621,
+  "VeryActiveMinutes": 855,
+  "TotalTimeInBed": 2355.1427254667833,
+  "TotalSteps": 148424
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 4.84999995,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd0"
+  },
+  "VeryActiveDistance": 15.970000087999999,
+  "SedentaryMinutes": 8848,
+  "TotalMinutesAsleep": 4945,
+  "Id": {
+    "$numberLong": "8378563200"
+  },
+  "Calories": 39736,
+  "LightActiveDistance": 47.169999599,
+  "LightlyActiveMinutes": 1917,
+  "": 56,
+  "FairlyActiveMinutes": 94,
+  "TotalDistance": 68.009999753,
+  "VeryActiveMinutes": 578,
+  "TotalTimeInBed": 5444,
+  "TotalSteps": 85761
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 10.039999998999999,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd2"
+  },
+  "VeryActiveDistance": 7.960000203,
+  "SedentaryMinutes": 15656,
+  "TotalMinutesAsleep": 1369.5988297586132,
+  "Id": {
+    "$numberLong": "8583815059"
+  },
+  "Calories": 31514,
+  "LightActiveDistance": 23.50000012,
+  "LightlyActiveMinutes": 1234,
+  "": 58,
+  "FairlyActiveMinutes": 214,
+  "TotalDistance": 69.429999113,
+  "VeryActiveMinutes": 95,
+  "TotalTimeInBed": 1893.3877575292781,
+  "TotalSteps": 89006
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 0,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd4"
+  },
+  "VeryActiveDistance": 0,
+  "SedentaryMinutes": 10585,
+  "TotalMinutesAsleep": 3105.5065373582643,
+  "Id": {
+    "$numberLong": "8792009665"
+  },
+  "Calories": 16838,
+  "LightActiveDistance": 5.219999909,
+  "LightlyActiveMinutes": 465,
+  "": 60,
+  "FairlyActiveMinutes": 0,
+  "TotalDistance": 5.219999909,
+  "VeryActiveMinutes": 0,
+  "TotalTimeInBed": 3492.396762062691,
+  "TotalSteps": 8154
+},
+{
+  "Date": {
+    "$date": "2016-05-31T00:00:00.000Z"
+  },
+  "ModeratelyActiveDistance": 4.959999978,
+  "_id": {
+    "$oid": "67f2d026da85d734ad9a3cd6"
+  },
+  "VeryActiveDistance": 61.840000945,
+  "SedentaryMinutes": 13594,
+  "TotalMinutesAsleep": 1629.049021394233,
+  "Id": {
+    "$numberLong": "8877689391"
+  },
+  "Calories": 37548,
+  "LightActiveDistance": 67.309999943,
+  "LightlyActiveMinutes": 2439,
+  "": 62,
+  "FairlyActiveMinutes": 130,
+  "TotalDistance": 134.799998054,
+  "VeryActiveMinutes": 608,
+  "TotalTimeInBed": 1901.2533961577712,
+  "TotalSteps": 163974
+}]
