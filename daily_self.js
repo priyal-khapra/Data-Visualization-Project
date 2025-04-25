@@ -1,5 +1,6 @@
 // Sample data representing the user with ID 2022484408
 const userData = [
+  // Array of objects, each representing a day's health metrics
   {
     "Date": "2016-04-12",
     "Calories": 2390,
@@ -54,13 +55,13 @@ const userData = [
 function createDashboard(selectedDate) {
   // Find the user data for selected date
   const userDataForDate = userData.find(d => d.Date === selectedDate);
-  
+  // If no data is found for the selected date, exit
   if (!userDataForDate) {
     console.error('No data found for selected date');
     return;
   }
   
-  // Format date for display
+  // Format date for display - human readable format
   const formattedDate = new Date(selectedDate).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -69,6 +70,7 @@ function createDashboard(selectedDate) {
   
   // Create step progress donut chart
   const stepProgressSpec = {
+    // Vega-Lite schema and chart configuration
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text": "Daily Step Goal Progress (Optimum number of steps: 10,000)",
@@ -141,7 +143,7 @@ function createDashboard(selectedDate) {
     ]
   };
   
-  // Create metrics view
+  // Metrics summary view for calories, distance, and sleep
   const metricsSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "vconcat": [
@@ -235,10 +237,10 @@ function createDashboard(selectedDate) {
     ]
   };
   
-  // Get sleep efficiency
+  // Calculate sleep efficiency (as a percentage of time asleep while in bed)
   const sleepEfficiency = ((userDataForDate.TotalMinutesAsleep / userDataForDate.TotalTimeInBed) * 100).toFixed(1);
   
-  // Create sleep charts
+  // Donut charts to visualize time asleep vs. recommendation and time in bed
   const sleepChartsSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "vconcat": [
@@ -408,7 +410,7 @@ function createDashboard(selectedDate) {
     ]
   };
   
-  // Create formatted descriptions for activity data
+  // Helper function to return description, color and percentage info for each activity intensity
   const getActivityDescription = (minutes, type) => {
     let intensity = "";
     let color = "";
@@ -479,7 +481,7 @@ function createDashboard(selectedDate) {
     }
   ];
   
-  // Create activity bar chart with tooltips
+  // Horizontal bar chart for activity intensity distribution
   const activityChartSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
@@ -532,7 +534,7 @@ function createDashboard(selectedDate) {
     }
   };
   
-  // Combine all views
+  // Combine all charts into a single dashboard layout using vconcat and hconcat
   const mainSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "vconcat": [
@@ -545,13 +547,14 @@ function createDashboard(selectedDate) {
       },
       activityChartSpec
     ],
+    // General chart configuration
     "config": {
       "view": {"stroke": "transparent"},
       "axis": {"domainColor": "#ccc", "tickColor": "#ccc"}
     }
   };
   
-  // Render the dashboard with hover capabilities
+  // Render the dashboard with hover capabilities // Render the dashboard using Vega-Embed
   vegaEmbed('#dashboard', mainSpec, {
     renderer: 'svg',
     actions: false,
@@ -615,7 +618,7 @@ document.getElementById('date-select').addEventListener('change', function() {
   createDashboard(this.value);
 });
 
-// Add custom tooltip styles
+// Add custom CSS styles for Vega tooltips directly into the page
 document.head.insertAdjacentHTML('beforeend', `
   <style>
     .vg-tooltip {

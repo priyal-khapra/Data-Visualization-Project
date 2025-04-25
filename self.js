@@ -1,6 +1,6 @@
-
+// Vega-Lite specification for rendering a personalized monthly dashboard
 const spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", // Vega-Lite schema
   "title": {
     // "text": "Your Personal Dashboard",
     "anchor": "start",
@@ -8,7 +8,9 @@ const spec = {
     "fontWeight": "bold",
     "subtitle": "Based on your last 31 days of activity"
   },
+  // Vertical concatenation of chart sections
   "vconcat": [
+    // === AVG STEPS & CALORIES INDICATORS ===
     {
       "title": {
         // "text": "aa",
@@ -16,8 +18,8 @@ const spec = {
         "fontWeight": "bold",
         "subtitle": "Based on selected user's last 31 days of activity"
       },
-      "hconcat": [
-        {
+      "hconcat": [  // Display two metric boxes side by side
+        {// --- Average Steps Box ---
           "title": "Avg Steps",
           "width": 180,
           "height": 100,
@@ -30,7 +32,7 @@ const spec = {
                 "cornerRadius": 12
               }
             },
-            {
+            {// Aggregated average steps
               "data": {"url": "daily_top10_clean.json"},
               "transform": [
                 {"filter": "datum.Id == 2022484408"},
@@ -50,6 +52,7 @@ const spec = {
             }
           ]
         },
+        // --- Average Calories Box ---
         {
           "title": "Avg Calories",
           "width": 180,
@@ -90,6 +93,7 @@ const spec = {
       "anchor": "middle",
       "font": "Segoe UI"}}
     },
+    // === ACTIVITY HEATMAP + RADIAL STEPS CHART ===
     {
       "columns": 5,
       "concat": [
@@ -151,6 +155,8 @@ const spec = {
           ]
         }
       },
+      
+      // --- Radial Steps Chart Over Month ---
       {
         "title": {"text": "Monthly Activity Radial Chart (Steps)", "anchor": "middle"},
         "width": 400,
@@ -200,9 +206,11 @@ const spec = {
     
     
     },
+    // === AREA CHARTS FOR DISTANCE & CALORIES ===
     {
       "columns": 5,
       "concat": [ 
+        // --- Total Distance Area Chart ---
         {
           "title": {"text": "Daily Total Distance", "fontSize": 16, "anchor": "middle"},
           "width": 600,
@@ -237,6 +245,7 @@ const spec = {
             "view": {"stroke": "transparent"}
           }
         },
+        // --- Calories Burned Area Chart ---
         {
           "title": {"text": "Daily Calories Burnt", "fontSize": 16, "anchor": "middle"},
           "width": 600,
@@ -274,10 +283,11 @@ const spec = {
         
       ]
     },
+    // === MODERATE DISTANCE, SEDENTARY TIME, SLEEP TRACKING ===
     {
       "columns": 4,
       "concat": [
-       
+       // --- Moderately Active Distance Line Chart ---
         {
           "title": "Moderately Active Distance",
           "width": 270,
@@ -298,6 +308,7 @@ const spec = {
             ]
           }
         },
+        // --- Sedentary Minutes Bar Chart ---
         {
           "title": "Sedentary Minutes",
           "width": 270,
@@ -317,6 +328,7 @@ const spec = {
             ]
           }
         },
+        // --- Comparison Area Chart for Sleep vs Time in Bed ---
         {
           "title": {
             "text": "Time in Bed vs Minutes Asleep",

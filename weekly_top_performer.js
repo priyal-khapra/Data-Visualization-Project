@@ -5,19 +5,19 @@ const DAILY_JSON  = 'DataVisualisationProject.Daily_consolidated.json';
 const users = [1503960366, 1624580081, 1644430081, 1844505072, 1927972279, 2022484408, 2026352035];
 let allWeeklyData = [];
 let allDailyData = [];
-
+// Fetch weekly data first
 fetch(WEEKLY_JSON)
   .then(res => res.json())
   .then(data => {
     allWeeklyData = data;
-
+    // Populate user selection dropdown
     users.forEach((id, idx) => {
       const opt = document.createElement('option');
       opt.value = id;
       opt.text = `User ${idx+1} (ID: ${id})`;
       document.getElementById('user-select').appendChild(opt);
     });
-
+    // Extract unique week dates for dropdown
     const uniqueDates = [...new Set(data.map(d => d.Date.$date))];
     uniqueDates.forEach((date, i) => {
       const opt = document.createElement('option');
@@ -25,22 +25,26 @@ fetch(WEEKLY_JSON)
       opt.text = `Week ${i+1}`;
       document.getElementById('week-select').append(opt);
     });
-
+    // Now fetch daily data
     return fetch(DAILY_JSON);
   })
   .then(res => res.json())
   .then(data => {
     allDailyData = data;
+    // Attach event listeners after data is available
     document.getElementById('user-select').addEventListener('change', renderCharts);
     document.getElementById('week-select').addEventListener('change', renderCharts);
+    // Render initially with default selection
     renderCharts();
   });
-
+/**
+ * Filters and formats daily data for a given week for a user
+ */
 function getWeekRangeData(weekEndDateStr, userId, dailyData) {
   const result = [];
   const end = new Date(weekEndDateStr);
   const start = new Date(end);
-  start.setDate(end.getDate() - 6);
+  start.setDate(end.getDate() - 6); // Go back 6 days to get full week
 
   for (let i = 0; i < 7; i++) {
     const date = new Date(start);
@@ -62,7 +66,9 @@ function getWeekRangeData(weekEndDateStr, userId, dailyData) {
 
   return result;
 }
-
+/**
+ * Renders all charts based on current user and week selection
+ */
 function renderCharts() {
   const weekDate = document.getElementById('week-select').value;
   const userId = +document.getElementById('user-select').value;
@@ -73,7 +79,7 @@ function renderCharts() {
 
   const dailyWeekData = getWeekRangeData(rec.Date.$date, userId, dailyData);
   const weekTitle = `${dailyWeekData[0].dateLabel} – ${dailyWeekData[6].dateLabel}`;
-
+  // Steps Area Chart
   const dailyStepsSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     width: 300,
@@ -92,7 +98,7 @@ function renderCharts() {
   };
   vegaEmbed('#chart-steps', dailyStepsSpec, { actions: false });
 
-  // Calories Radial
+  // Calories Radial Chart
   const caloriesGoal = 14000;
   const caloriesVal = rec.Calories;
 
@@ -173,8 +179,8 @@ function renderCharts() {
   };
   vegaEmbed('#chart-distance', distanceLineSpec, { actions: false });
 
-  // Sleep chart remains unchanged
-  const recommended = 3360;
+  // Sleep donut chart remains unchanged
+  const recommended = 3360; // 8 hours * 60 * 7
   const asleep = rec.TotalMinutesAsleep;
   const inBed = rec.TotalTimeInBed;
   const sleepEff = ((asleep / inBed) * 100).toFixed(1);
@@ -218,7 +224,7 @@ function renderCharts() {
     ]
   };
   vegaEmbed('#chart-sleep', sleepChartsSpec, { actions: false });
-
+  // Activity Intensity Bar Chart
   const activityData = [
     { level:'Very Active', minutes: rec.VeryActiveMinutes, color:'#ef5350' },
     { level:'Fairly Active', minutes: rec.FairlyActiveMinutes, color:'#ffc107' },

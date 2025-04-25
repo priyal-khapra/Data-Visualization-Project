@@ -1,24 +1,27 @@
+// Define the Vega-Lite specification for the Top Health Enthusiast Dashboard
 const spec = {
+  // Specify schema version for Vega-Lite
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    // Parameters for dropdown filters (user ID and date)
     "params": [
       {
-        "name": "selected_id",
+        "name": "selected_id", // user ID parameter
         "value": 5577150313,
         "bind": {
-          "element": "#controls",
-          "input": "select",
+          "element": "#controls", // HTML element to bind to
+          "input": "select", // type of input
           "options":  [
             5577150313, 8053475328, 2022484408, 5553957443
           ],
           "labels": [
           "User 1 (ID: 5577150313)", "User 2 (ID: 8053475328)",
           "User 3 (ID: 2022484408)", "User 4 (ID: 5553957443)"
-        ]
+        ] // human-readable labels
         }
       } ,
       
       {
-        "name": "selected_date",
+        "name": "selected_date", // date parameter
         "value": "2016-04-12T00:00:00.000Z",
         "bind": {
           "element": "#controls",
@@ -33,10 +36,12 @@ const spec = {
         }
       }
     ],
+    // Vertically concatenated visualizations
     "vconcat": [
         {
-          "columns": 4,
+          "columns": 4, // Arranged in up to 4 columns
           "concat": [
+            // --- Step Progress Donut Chart ---
             {
                 "title": {
                   "text": "Daily Step Goal Progress (Optimium number of steps: 10,000)",
@@ -130,7 +135,7 @@ const spec = {
                 }
               }
               
-              ,              
+              , // --- Key Metrics: Calories, Distance, Sleep ---             
             {"vconcat" : [{
               "title": "Calories",
               "width": 140,
@@ -187,7 +192,7 @@ const spec = {
                   }
                 }
               ]
-            }]},
+            }]}, // --- Sleep Donut Charts: Time asleep vs. goal, Time in bed ---
             {"vconcat" : [{
                 "title": {
                   "text": "Time asleep",
@@ -374,6 +379,7 @@ const spec = {
               }  ] }
           ]
         },
+        // --- Activity Intensity Bar Chart ---
         {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
             "title": {
@@ -457,11 +463,12 @@ const spec = {
           
           
       ],
+      // Resolve potential conflicts in color encodings independently for each chart
       "resolve": {
     "scale": {
       "color": "independent"
     }
   }
     };
-  
+  // Render the visualization to the div with ID "vis"
   vegaEmbed("#vis", spec);

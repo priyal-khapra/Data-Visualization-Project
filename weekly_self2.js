@@ -1,42 +1,48 @@
 // weekly_self.js
 const WEEKLY_JSON = 'DataVisualisationProject.Weekly_consolidated.json';
 const USER_ID     = 2022484408;
+// Define storage for weekly and daily user data
 let weeklyData;
 let dailyData = [];
-
+// Load the weekly data JSON first
 fetch(WEEKLY_JSON)
   .then(res => res.json())
   .then(data => {
+    // Filter the data to get only the current user's weekly records
     weeklyData = data.filter(d => d.Id === USER_ID)
+    // Attach change event to dropdown and render initial charts
     document.getElementById('week-select')
                 .addEventListener('change', renderCharts);
     renderCharts();
+    // Fetch daily data only after weekly is loaded
     fetch('DataVisualisationProject.Daily_consolidated.json')
       .then(res => res.json())
       .then(daily => {
+        // Filter to current user's daily records
         dailyData = daily.filter(d => d.Id === USER_ID);
+        // Ensure dropdown event and render again after daily data is loaded
         document.getElementById('week-select')
                 .addEventListener('change', renderCharts);
         renderCharts();
       });
   });
-
+// Helper function to extract 7-day data ending at given date
 function getWeekRangeData(weekEndDateStr) {
   const result = [];
   const end = new Date(weekEndDateStr);
   const start = new Date(end);
-  start.setDate(end.getDate() - 6);
+  start.setDate(end.getDate() - 6); // Go back 6 days for a 7-day week
 
   for (let i = 0; i < 7; i++) {
     const date = new Date(start);
     date.setDate(start.getDate() + i);
     const isoDate = date.toISOString().split('T')[0];
-
+    // Match the exact day from daily records
     const match = dailyData.find(d => {
       const dDate = new Date(d.Date?.$date || d.Date).toISOString().split('T')[0];
       return dDate === isoDate && d.Id === USER_ID;
     });
-
+    // Push cleaned data object
     result.push({
       dateLabel: date.toLocaleDateString('en-US', { weekday: 'short' }),
       steps: match ? match.TotalSteps : 0,
@@ -47,10 +53,11 @@ function getWeekRangeData(weekEndDateStr) {
 
   return result;
 }
-
+// Main rendering function for all visualizations
 function renderCharts() {
   const highlightIdx = +document.getElementById('week-select').value;
   const rec = weeklyData[highlightIdx];
+  // Pull daily values for selected week's range
   const dailyDataForWeek = getWeekRangeData(rec.Date.$date);
   const weekTitle = `${dailyDataForWeek[0].dateLabel} – ${dailyDataForWeek[6].dateLabel}`;
 
@@ -181,7 +188,7 @@ function renderCharts() {
   vegaEmbed('#chart-distance', distanceLineSpec, { actions: false });
 
   // 4) Sleep efficiency (unchanged)
-  const recommended = 3360;
+  const recommended = 3360; // 8 hours/day × 7 days = 3360 min
   const asleep = rec.TotalMinutesAsleep;
   const inBed = rec.TotalTimeInBed;
   const sleepEff = ((asleep / inBed) * 100).toFixed(1);
@@ -274,7 +281,7 @@ function renderCharts() {
   };
   vegaEmbed('#chart-sleep', sleepChartsSpec, { actions: false });
 
-  // 5) Activity minutes
+  // 5) Weekly Activity minutes
   const activityData = [
     { level: 'Very Active', minutes: rec.VeryActiveMinutes, color: '#ef5350' },
     { level: 'Fairly Active', minutes: rec.FairlyActiveMinutes, color: '#ffc107' },

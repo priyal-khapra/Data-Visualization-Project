@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata for character encoding and page title -->
     <meta charset="UTF-8" />
     <title>Top Health Enthusiast Dashboard</title>
+    <!-- Import Vega, Vega-Lite, and Vega-Embed libraries for rendering interactive charts -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <!-- Custom CSS styling for layout and elements -->
     <style>
       /* Style for dropdown controls */
+      /* Global body styles for consistent font and layout */
       body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
       scroll-behavior: smooth;
-      /* background-color: #f4f7fa; */
+      /* background-color: #f4f7fa; */  /* Optional light background */
     }
+    /* Sticky header style for visibility during scroll */
     h2 {
   position: sticky;
   top: 0;
@@ -29,12 +34,13 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: background 0.3s ease, transform 0.2s ease;
 }
+/* Hover effect for header */
 h2:hover {
   background: linear-gradient(to right, #e85d64, #d9444c);
   transform: scale(1.02);
   cursor: default;
 }
-
+/* Container for dropdown filters or controls */
       #controls {
         display: flex;
         gap: 20px;
@@ -49,7 +55,7 @@ h2:hover {
         margin: 0 auto 30px;
       }
   
-      
+      /* Style for <select> dropdowns inside #controls */
       #controls select {
         padding: 10px 16px;
         font-size: 15px;
@@ -66,17 +72,19 @@ h2:hover {
         background-size: 16px 16px;
         cursor: pointer;
       }
+      /* Focus state for dropdowns */
       #controls select:focus {
         outline: none;
         border-color: #26a69a;
         box-shadow: 0 0 0 2px rgba(38, 166, 154, 0.2);
       }
+      /* Container for visualizations rendered by Vega */
       #vis {
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 20px;
       }
-  
+      /* Label styling within controls */
       #controls label {
         font-weight: 600;
         font-size: 15px;
@@ -87,10 +95,11 @@ h2:hover {
       </head>
   <body>
     <h2>Your Monthly Statistics</h2>
-    
+    <!-- Control area for user input (dropdowns, etc.) -->
     <div id="controls"></div>
+    <!-- Visualization container where Vega will render charts -->
     <div id="vis"></div>
-
+    <!-- External JavaScript that powers the dashboard (likely using Vega/Vega-Lite) -->
     <script src="self.js"></script>
   </body>
 </html>

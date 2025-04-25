@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Character encoding and page title -->
     <meta charset="UTF-8" />
     <title>Top Health Enthusiast Dashboard</title>
+    <!-- Vega, Vega-Lite, and Vega-Embed libraries for chart rendering -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <!-- Custom styles -->
     <style>
-      /* Style for dropdown controls */
+      /* Base styles for body and fonts */
       body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
       scroll-behavior: smooth;
+      /* Optional background color */
       /* background-color: #f4f7fa; */
     }
+    /* Sticky header styling */
     h2 {
   position: sticky;
   top: 0;
@@ -29,12 +34,13 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: background 0.3s ease, transform 0.2s ease;
 }
+/* Header hover effect */
 h2:hover {
   background: linear-gradient(to right, #e85d64, #d9444c);
   transform: scale(1.02);
   cursor: default;
 }
-
+/* Controls container styling (for dropdowns, filters, etc.) */
       #controls {
         display: flex;
         gap: 20px;
@@ -49,7 +55,7 @@ h2:hover {
         margin: 0 auto 30px;
       }
   
-      
+/* Style for dropdown menus inside controls */  
       #controls select {
         padding: 10px 16px;
         font-size: 15px;
@@ -66,17 +72,19 @@ h2:hover {
         background-size: 16px 16px;
         cursor: pointer;
       }
+      /* Focus state for select inputs */
       #controls select:focus {
         outline: none;
         border-color: #26a69a;
         box-shadow: 0 0 0 2px rgba(38, 166, 154, 0.2);
       }
+      /* Container for rendered Vega charts */
       #vis {
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 20px;
       }
-  
+    /* Label styling inside controls */
       #controls label {
         font-weight: 600;
         font-size: 15px;
@@ -87,10 +95,10 @@ h2:hover {
   </head>
   <body>
     <h2>Top Enthusiast Daily Statistics</h2>
-    
+    <!-- Placeholder for dropdowns or controls -->
     <div id="controls"></div>
     <div id="vis"></div>
-
+    <!-- Placeholder for Vega chart visualizations -->
     <script src="daily_top_performer.js"></script>
   </body>
 </html>

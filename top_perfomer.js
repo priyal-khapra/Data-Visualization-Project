@@ -1,11 +1,13 @@
+// Define the Vega-Lite specification for a dashboard with user ID dropdown selection
 const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  // Parameters to make user ID dynamic via dropdown bound to #controls
   "params": [
     {
       "name": "selected_id",
       "value": 5577150313,
       "bind": {
-        "element": "#controls",
+        "element": "#controls", // Dropdown container
         "input": "select",
         "options": [
           5577150313, 8053475328, 2022484408, 5553957443
@@ -18,8 +20,10 @@ const spec = {
     }
 
   ],
+  // Vertically stacked chart sections
   "vconcat": [
     {
+      // === Metric Summary Boxes ===
       "title": {
         // "text": "Top Health Enthusiast Dashboard",
         "fontSize": 22,
@@ -27,6 +31,7 @@ const spec = {
         "subtitle": "Based on selected user's last 31 days of activity"
       },
       "hconcat": [
+        // Average Steps
         {
           "title": "Avg Steps",
           "width": 180,
@@ -60,6 +65,7 @@ const spec = {
             }
           ]
         },
+        // Average Calories
         {
           "title": "Avg Calories",
           "width": 180,
@@ -95,9 +101,11 @@ const spec = {
         }
       ]
     },
+    // === Heatmap & Radial Steps Chart ===
     {
       "columns": 5,
       "concat": [
+        // Daily Activity Intensity Heatmap
       {
         "title": {
           "text": "Daily Activity Intensity Heatmap",
@@ -156,6 +164,7 @@ const spec = {
           ]
         }
       },
+      // Radial Chart: Steps Per Day of Month
       {
         "title": {"text": "Monthly Activity Radial Chart (Steps)", "anchor": "middle"},
         "width": 400,
@@ -205,6 +214,7 @@ const spec = {
     
     
     },
+    // === Daily Distance & Calories Burned Area Charts ===
     {
       "hconcat": [ 
         {
@@ -269,6 +279,7 @@ const spec = {
         } 
       ]
     },
+    // === Moderate Activity, Sedentary Time & Sleep Comparison ===
     {
       "hconcat": [
         {
@@ -373,14 +384,16 @@ const spec = {
       ]
     }
   ],
+  // Independent color scales for each chart
   "resolve": {
     "scale": {"color": "independent"}
   },
+  // Global configuration
   "config": {
     "view": {"stroke": "transparent"},
     "axis": {"domainColor": "#bbb", "gridColor": "#eee"},
     "font": "Segoe UI, Helvetica, Arial"
   }
 };
-
+// Render the dashboard in a DOM element with id="vis"
 vegaEmbed("#vis", spec);

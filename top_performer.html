@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic HTML meta setup -->
     <meta charset="UTF-8" />
     <title>Top Health Enthusiast Dashboard</title>
+    <!-- Load Vega libraries for visualization rendering -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -15,6 +17,7 @@
       scroll-behavior: smooth;
       /* background-color: #f4f7fa; */
     }
+    /* Sticky header with gradient and hover animation */
     h2 {
   position: sticky;
   top: 0;
@@ -29,13 +32,14 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: background 0.3s ease, transform 0.2s ease;
 }
+/* Header hover effect */
 h2:hover {
   background: linear-gradient(to right, #e85d64, #d9444c);
   transform: scale(1.02);
   cursor: default;
 }
 
-
+/* Controls container for dropdowns or input filters */
       #controls {
         display: flex;
         gap: 20px;
@@ -50,7 +54,7 @@ h2:hover {
         margin: 0 auto 30px;
       }
   
-      
+      /* Styling for all select dropdowns */
       #controls select {
         padding: 10px 16px;
         font-size: 15px;
@@ -67,17 +71,19 @@ h2:hover {
         background-size: 16px 16px;
         cursor: pointer;
       }
+      /* Custom arrow for dropdown */
       #controls select:focus {
         outline: none;
         border-color: #26a69a;
         box-shadow: 0 0 0 2px rgba(38, 166, 154, 0.2);
       }
+      /* Focus style for select elements */
       #vis {
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 20px;
       }
-  
+  /* Label styling within controls */
       #controls label {
         font-weight: 600;
         font-size: 15px;
@@ -88,10 +94,11 @@ h2:hover {
   </head>
   <body>
     <h2>Top Enthusiast Monthly Statistics</h2>
-    
+    <!-- Dropdown controls (e.g., user selector) will go here -->
     <div id="controls"></div>
+    <!-- Visualization container (target for Vega-Embed) -->
     <div id="vis"></div>
-
+    <!-- Include the JavaScript logic that defines the Vega-Lite spec -->
     <script src="top_perfomer.js"></script>
   </body>
 </html>
